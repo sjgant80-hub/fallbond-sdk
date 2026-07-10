@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallbond-sdk",
+  "version": "1.0.0",
+  "description": "fallbond SDK · sovereign single-file library extracted from fallbond/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["fallbond", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallbond-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallbond-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
